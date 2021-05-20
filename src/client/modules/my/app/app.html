@@ -1,0 +1,11 @@
+<template>
+    <header>
+        <img src="resources/lwc.png" alt="App logo">
+        <h2>Lightning Conference</h2>
+      </header>
+      <main class="content">
+        <!-- Add components here -->
+        <my-session-list onsessionclicked={handleSessionClicked}></my-session-list>
+        <my-session-details session={session}></my-session-details>
+      </main>
+</template>
